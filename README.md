@@ -16,8 +16,11 @@ I used Vuforia to make an mobile AR app.  A drone model tracks and follows a QR 
 
 #### Ruoni - Maze
 
-I used Vuforia to make an mobile AR app. I built virtual walls for the maze and a ball is trapped in the maze. We can tilt the maze to control the movement of the ball and aim to move it out of the maze. 
-![maze](./maze.jpg)
+I used Vuforia to make an mobile AR app. I used a maze image as the image target and built all the virtual walls using box colliders. Then I created a ball that is trapped in the maze. We can tilt the maze to control the movement of the ball and aim to move it out of the maze.
+![maze1](./maze1.jpg)
+![maze2](./maze2.jpg)
+
+I followed [this tutorial](https://www.instructables.com/id/Augmented-Reality-Tutorial-for-Beginners-With-Vufo/). 
 
 The maze image can be detected and walls appear as expected. The ball appears and moves under gravity. However, it is still too bouncy to stay in the maze. It often bounces out of the maze in a rapid speed. I have tried change bounce to 0 for the materials used for all colliders, but it didn't reduce the bounciness. 
 
