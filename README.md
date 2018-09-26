@@ -40,7 +40,7 @@ AR is super fun!! All my friends love it too because its rare to see things usin
 
 
 ## What didn’t work
-We tried to use XCode and build IOS app for the maze. However, the phone camera is not working correctly. Even though a prompt appeared to ask if the app can access camera, the camera's view isn't rendered in the app, which in turns shows the virtual horizontal of the Unity scene. I saw that there are similar issues other people posted about IOS camera not working for Vuforia and Unity project, but couldn't make it to work. 
+We tried to use XCode and build IOS app for the maze. However, the phone camera is not working correctly. Even though a prompt appeared to ask if the app can access camera, the camera's view isn't rendered in the app, which in turns shows the virtual horizontal of the Unity scene. I saw that there are similar issues other people posted about IOS camera not working for Vuforia and Unity project, but couldn't make it to work after trying out different VuforiaConfig options as instructed. 
 
 I wasn't able to control the bounciness of the ball colliding with the maze walls, despite setting bounce to 0 and added script to stop motion upon collision. I found alternative tutorials for the maze which give conflicting directions and neither really worked :( 
 
